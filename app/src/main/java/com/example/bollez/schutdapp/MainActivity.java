@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         View v = new View(this);
 
 
-        butReadSms.setOnClickListener(s.onReceive(c,intent.getAction()));
+        butReadSms.setOnClickListener(s.onReceive(context,intent.getAction()));
 
         //s.onReceive(this,intent);
     }
